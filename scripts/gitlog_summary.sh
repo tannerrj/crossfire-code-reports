@@ -16,16 +16,16 @@ perform_git_operation() {
   local log_file=$2
   local destination=$3
 
-  cd "$directory" || handle_error "Could not change directory to $directory"
+  cd "$directory" || handle_error "Error: Could not change directory to $directory"
   echo "GIT-LOG $directory"
   
   # Step 2.1: Run git-log-html and redirect the output to a file
-  git-log-html > "$log_file" || handle_error "Failed to generate git-log HTML for $directory"
+  git-log-html > "$log_file" || handle_error "Error: Failed to generate git-log HTML for $directory"
   
   # Step 2.2: Copy the generated HTML file to the destination
-  cp "$log_file" "$destination" || handle_error "Failed to copy $log_file to $destination"
+  cp "$log_file" "$destination" || handle_error "Error: Failed to copy $log_file to $destination"
   
-  cd - || handle_error "Could not change back to the previous directory"
+  cd - || handle_error "Error: Could not change back to the previous directory"
 }
 
 # Step 3: Main script
