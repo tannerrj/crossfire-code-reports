@@ -10,7 +10,7 @@ handle_error() {
   exit 1
 }
 
-# Function to perform git operations and log to HTML
+# Step 2: Function to perform git operations and log to HTML
 perform_git_operation() {
   local directory=$1
   local log_file=$2
