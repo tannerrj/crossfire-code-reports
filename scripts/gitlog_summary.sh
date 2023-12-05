@@ -39,7 +39,7 @@ perform_git_operation "crossfire-crossfire-sounds/" "crossfire-crossfire-sounds.
 perform_git_operation "crossfire-jxclient/" "crossfire-jxclient.html" "/var/www/html/crossfire-website/git/crossfire-jxclient/gitlog/"
 perform_git_operation "crossfire-metaserver/" "crossfire-metaserver.html" "/var/www/html/crossfire-website/git/crossfire-metaserver/gitlog/"
 
-# Other repositories
+# Step 3.2 Other repositories
 perform_git_operation "gridarta-gridarta" "gridarta-git-log.html" "/var/www/html/crossfire-website/git/gridarta/gitlog/"
 perform_git_operation "crossfire-arch-retro-code/" "crossfire-arch-retro-git-log.html" "/var/www/html/crossfire-website/git/crossfire-arch-retro/gitlog"
 perform_git_operation "Spell_shuffle/" "spell-shuffle-git-log.html" "/var/www/html/crossfire-website/git/spell-shuffle/gitlog/"
