@@ -22,7 +22,7 @@ perform_git_operation() {
   # Step 2.1: Run git-log-html and redirect the output to a file
   git-log-html > "$log_file" || handle_error "Failed to generate git-log HTML for $directory"
   
-  # Copy the generated HTML file to the destination
+  # Step 2.2: Copy the generated HTML file to the destination
   cp "$log_file" "$destination" || handle_error "Failed to copy $log_file to $destination"
   
   cd - || handle_error "Could not change back to the previous directory"
