@@ -30,7 +30,7 @@ perform_git_operation() {
 
 # Step 3: Main script
 
-# Crossfire repositories
+# Step 3.1 Crossfire repositories
 perform_git_operation "crossfire-crossfire-arch/" "crossfire-crossfire-arch.html" "/var/www/html/crossfire-website/git/crossfire-crossfire-arch/gitlog/"
 perform_git_operation "crossfire-crossfire-client/" "crossfire-crossfire-client.html" "/var/www/html/crossfire-website/git/crossfire-crossfire-client/gitlog/"
 perform_git_operation "crossfire-crossfire-server/" "crossfire-crossfire-server.html" "/var/www/html/crossfire-website/git/crossfire-crossfire-server/gitlog/"
