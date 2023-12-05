@@ -45,5 +45,5 @@ perform_git_operation "crossfire-arch-retro-code/" "crossfire-arch-retro-git-log
 perform_git_operation "Spell_shuffle/" "spell-shuffle-git-log.html" "/var/www/html/crossfire-website/git/spell-shuffle/gitlog/"
 perform_git_operation "net.crossfireatlas.crossfire" "net-crossfireatlas-crossfire.html" "/var/www/html/crossfire-website/git/net-crossfireatlas-crossfire/gitlog"
 
-# Summary
+# Step 4: Summary
 echo "DONE"
