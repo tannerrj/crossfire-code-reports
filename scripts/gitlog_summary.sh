@@ -28,7 +28,7 @@ perform_git_operation() {
   cd - || handle_error "Could not change back to the previous directory"
 }
 
-# Main script
+# Step 3: Main script
 
 # Crossfire repositories
 perform_git_operation "crossfire-crossfire-arch/" "crossfire-crossfire-arch.html" "/var/www/html/crossfire-website/git/crossfire-crossfire-arch/gitlog/"
