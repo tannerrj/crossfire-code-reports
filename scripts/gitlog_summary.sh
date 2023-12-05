@@ -4,7 +4,7 @@
 # Author: Rick Tanner via ChatGPT
 # Description: This script runs `git-log-html` for various Crossfire code repositories, saves the output to the website directory, and provides a summary of the execution time.
 
-# Function to handle errors
+# Step 1: Function to handle errors
 handle_error() {
   echo "Error: $1"
   exit 1
