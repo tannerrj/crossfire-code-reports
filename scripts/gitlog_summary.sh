@@ -19,7 +19,7 @@ perform_git_operation() {
   cd "$directory" || handle_error "Could not change directory to $directory"
   echo "GIT-LOG $directory"
   
-  # Run git-log-html and redirect the output to a file
+  # Step 2.1: Run git-log-html and redirect the output to a file
   git-log-html > "$log_file" || handle_error "Failed to generate git-log HTML for $directory"
   
   # Copy the generated HTML file to the destination
