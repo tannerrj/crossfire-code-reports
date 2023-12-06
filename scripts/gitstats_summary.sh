@@ -18,7 +18,7 @@ run_gitstats() {
     fi
 }
 
-# Main script
+# Step 2: Main script
 
 # Change to home directory
 cd || exit
