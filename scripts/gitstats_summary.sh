@@ -23,7 +23,7 @@ run_gitstats() {
 # Step 2.1: Change to home directory
 cd || exit
 
-# Run gitstats for each project
+# Step 2.2: Run gitstats for each project
 run_gitstats "ARCHETYPES" "/var/www/html/crossfire-website/git/crossfire-crossfire-arch"
 run_gitstats "GTKv2 CLIENT" "/var/www/html/crossfire-website/git/crossfire-crossfire-client"
 run_gitstats "SERVER" "/var/www/html/crossfire-website/git/crossfire-crossfire-server"
