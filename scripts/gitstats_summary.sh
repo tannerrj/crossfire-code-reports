@@ -20,7 +20,7 @@ run_gitstats() {
 
 # Step 2: Main script
 
-# Change to home directory
+# Step 2.1: Change to home directory
 cd || exit
 
 # Run gitstats for each project
