@@ -39,4 +39,5 @@ run_gitstats "FLATHUB" "/var/www/html/crossfire-website/git/net-crossfireatlas-c
 # Step 3: Return to home directory
 cd || exit
 
+# Step 4: Summary
 echo "DONE"
