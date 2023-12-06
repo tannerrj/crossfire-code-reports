@@ -36,7 +36,7 @@ run_gitstats "RETRO ARCH" "/var/www/html/crossfire-website/git/crossfire-arch-re
 run_gitstats "SPELL SHUFFLE" "/var/www/html/crossfire-website/git/spell-shuffle"
 run_gitstats "FLATHUB" "/var/www/html/crossfire-website/git/net-crossfireatlas-crossfire"
 
-# Return to home directory
+# Step 3: Return to home directory
 cd || exit
 
 echo "DONE"
