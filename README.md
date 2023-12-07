@@ -33,7 +33,8 @@ Not available, work in progress.
 
 ## Live Web Page
 
-Not available, work in progress.
+ * Crossfire [GitStats](https://crossfire.real-time.com/git/gitstats/index.html)
+ * Crossfire [GitLog](https://crossfire.real-time.com/git/gitlog/index.html)
 
 ## Contributing
 
