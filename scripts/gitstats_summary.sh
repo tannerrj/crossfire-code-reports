@@ -4,6 +4,7 @@
 # Author: Rick Tanner via ChatGPT
 # Description: This script runs gitstats for various Crossfire projects and provides a summary of the execution time.
 # Project URL: https://github.com/tannerrj/crossfire-code-reports
+# License: MIT License
 
 # Step 1: Function to run gitstats and display execution time
 run_gitstats() {
