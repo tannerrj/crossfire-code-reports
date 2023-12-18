@@ -27,7 +27,7 @@ It is helpful to have `git` installed to download all the related code for `Cros
 
 ### GitStats
 
-I am using a forked version of [GitStats](https://github.com/tannerrj/gitstats)
+I am using a forked version of [GitStats](https://github.com/tannerrj/gitstats) and a forked version of [GitLog](https://github.com/tannerrj/git-log-html)
 
 The scripts also require a local copy of the code repo. For instance:
 
@@ -52,6 +52,24 @@ Specific example
 ``` shell
 
 ./gitstats/gitstats crossfire-crossfire-arch /var/www/html/crossfire-website/git/crossfire-crossfire-arch/gitstats
+
+```
+
+#### Running GitLog:
+
+General example
+
+``` shell
+
+path/to/git-log-html > file-output-name.html
+
+```
+
+Specific example
+
+``` shell
+
+git-log-html > crossfire-crossfire-arch.html
 
 ```
 
