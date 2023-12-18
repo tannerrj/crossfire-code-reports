@@ -25,7 +25,35 @@ It is helpful to have `git` installed to download all the related code for `Cros
 
 ## Usage
 
-Not available, work in progress.
+### GitStats
+
+I am using a forked version of [GitStats](https://github.com/tannerrj/gitstats)
+
+The scripts also require a local copy of the code repo. For instance:
+
+``` shell
+
+git clone https://git.code.sf.net/p/crossfire/crossfire-arch crossfire-crossfire-arch
+
+```
+
+#### Running Gitstats:
+
+General example
+
+``` shell
+
+./path/to/gitstats /path/to/local/git-repo /path/to/output/directory
+
+```
+
+Specific example
+
+``` shell
+
+./gitstats/gitstats crossfire-crossfire-arch /var/www/html/crossfire-website/git/crossfire-crossfire-arch/gitstats
+
+```
 
 ## Screenshot
 
