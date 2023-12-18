@@ -29,7 +29,9 @@ Not available, work in progress.
 
 ## Screenshot
 
-Not available, work in progress.
+![Crossfire Archtypes GitStats Index Page](images/GitStats-crossfire-crossfire-arch.png)
+![Crossfire Archtypes GitStats Activity Page](images/GitStats-crossfire-crossfire-arch_activity.png)
+![Crossfire Archetypes Git ChangeLog](images/Crossfire-Arch-Git_ChangeLog.png)
 
 ## Live Web Page
 
